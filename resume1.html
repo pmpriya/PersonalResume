@@ -1,0 +1,571 @@
+<html><head></head><body><div class=""><div><style type="text/css" id="static">
+        /*Font support for MAC*/
+        @font-face{font-family:'Century Gothic';font-weight:normal;font-style:normal;src:local('Century Gothic'),url('/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')}
+        @font-face{font-family:'Century Gothic';font-weight:bold;font-style:normal;src:local('Century Gothic Bold'),url('/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')}
+        @font-face{font-family:'Century Gothic';font-weight:bold;font-style:italic;src:local('Century Gothic Bold Italic'),url('/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')}
+        @font-face{font-family:'Century Gothic';font-weight:normal;font-style:italic;src:local('Century Gothic Italic'),url('/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')}
+
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:1;border:0;outline:0;vertical-align:baseline;background:transparent}
+        body{text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
+        #document.skn-srz1 ol,#document.skn-srz1 ul{list-style:none}
+        #document.skn-srz1 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+
+        /*START content disc style for LI*/
+        #document.skn-srz1 ul,#document.skn-srz1 li{margin:0;padding:0;list-style-type:disc}
+        #document.skn-srz1 ul li{margin:0 0 0 16px;padding:0}
+        @-moz-document url-prefix() {#document.skn-srz1 ul li{margin:0 0 0 12px;padding:0 0 0 3px}}
+        /*END content disc style for LI*/
+
+        /*common css*/
+        #document.skn-srz1 .txtBold{font-weight:700}
+        #document.skn-srz1 .paddedline{display:block}
+        #document.skn-srz1 .mt5{margin-top:5px}
+        #document.skn-srz1 .txtRight{text-align:right}
+
+        #document.skn-srz1 table.skills,#document.skn-srz1 .table_wrapper{margin-top:0;width:100%;word-break:break-all}
+        #document.skn-srz1 table.skills th,#document.skn-srz1 table.skills td{text-align:center;width:20%}
+        #document.skn-srz1 table.skills .skillname,#document.skn-srz1 table.skills .skillrating{text-align:left;width:35%}
+        #document.skn-srz1 table.skills .skillrating{width:20%}
+        #document.skn-srz1 table.skills .skillyears,#document.skn-srz1 table.skills .skilllast{width:19%}
+        #document.skn-srz1 table.skills .pad1{width:5%}
+        #document.skn-srz1 table.skills .pad2,#document.skn-srz1 table.skills .pad3{width:1%}
+        #document.skn-srz1{color:#343434;font-variant-ligatures:none;line-height:16px;min-height:792px;box-sizing:border-box}
+        #document.skn-srz1 .name{font-weight:700;padding:0;position:relative;text-align:left;word-wrap:break-word}
+        #document.skn-srz1 .address .singlecolumn{margin-left:0!important}
+        #document.skn-srz1 .heading{font-weight:700;line-height:15px;margin-bottom:10px}
+        #document.skn-srz1 .sectiontitle{word-break:break-word}
+        #document.skn-srz1 .degreeGap{margin-bottom:4px}
+        #document.skn-srz1 .locationGap{margin-top:4px}
+        #document.skn-srz1 .firstsection{padding-top:0!important}
+        #document.skn-srz1 .section:empty{display:none}
+
+        /*Left Box */
+        #document.skn-srz1 .left-box{background:#003D73;display:table-cell;padding:15px;box-sizing:initial}
+        #document.skn-srz1 .left-box .section{position:relative;color:#FFF}
+        #document.skn-srz1 .left-box .heading{line-height:1.5;margin-left:-15px;margin-right:-15px;padding:0 15px;position:relative}
+        #document.skn-srz1 .left-box .heading:before{content:'';position:absolute;left:0;top:0;height:100%;width:100%;filter:brightness(0.8)}
+        #document.skn-srz1 .left-box .sectiontitle{padding:3px 0;text-align:left;position:relative}
+        #document.skn-srz1 .left-box .SECTION_CNTC{padding-top:20px!important}
+        #document.skn-srz1 .parentContainer{border-collapse:collapse;display:table;min-height:inherit;table-layout:fixed;}
+
+
+        /*Right Box */
+        #document.skn-srz1 .right-box{display:table-cell;letter-spacing:.2px;padding:15px;vertical-align:top}
+        #document.skn-srz1 .right-box .section:first-child{padding-top:0}
+        #document.skn-srz1 .right-box .heading{border-bottom:1px solid #d5d6d6;border-top:1px solid #d5d6d6;letter-spacing:0;padding:5px 0}
+        #document.skn-srz1 .right-box .sectiontitle{color:#514B54;}
+        #document.skn-srz1 .right-box .paddedline.date-content{position:absolute;margin-left:0;width:65px}
+        #document.skn-srz1 .paragraph .singlecolumn{position:relative}
+        #document.skn-srz1 .right-box .summary .paragraph .singlecolumn{margin-left:0}
+        #document.skn-srz1 .education .joblocation,.txtItl{font-style:italic; padding-top: 10px;}
+
+        /* Issues fix for builder page */
+        #document.skn-srz1 > div{min-height:inherit}
+        #displayResume #document.skn-srz1.document{min-height:792px}
+		#document.skn-srz1 .left-box .active *{color:#343434}
+        /* Only for firefox */
+        @-moz-document url-prefix() {#document.skn-srz1 .parentContainer{height:1px}}
+        #document.skn-srz1 .word-break{word-wrap:break-word}
+
+        #document.skn-srz1 .left-box .outer-square,#document.skn-srz1 right-box .outer-square,#document.skn-srz1 .left-box .inner-square,#document.skn-srz1 .right-box .inner-square{height:7px;position:relative}
+        #document.skn-srz1 .left-box .inner-square{background:#D68B7D}
+
+        #document.skn-srz1 .right-box .outer-square{background:#d6d6d6}
+        #document.skn-srz1 .right-box .inner-square{background:#003D73;filter:brightness(.8)}
+
+        /* For dates fix */
+        #document.skn-srz1 .right-box .hidedates{visibility:hidden;position:static!important;display:block;float:left}
+        #document.skn-srz1 .left-box .hidedates{display:none}
+        #document.skn-srz1 .paragraph.datespara:after{content:'';display:table;clear:both}
+	
+	.tooltip{
+	display:none;
+	}
+
+	.rename-section{
+	display:none;
+	}
+
+	.section-overlay{
+	display:none;
+}
+
+	 .para-overlay{
+	display:none;
+}
+
+.centerblock{ 
+    background-color: #EAD453;
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+     
+} 
+
+.circular-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 220px;
+  margin-bottom:-150px;
+  margin-top: 90px;
+  margin-left: 25px;
+}
+.frame{
+	background-color: #EAD453;
+	border-style: solid;
+	width: 300px;
+	height: 1000px;
+}
+.document-tool sec-tool{
+	display:none;
+}
+
+        /*PICT*/
+        #document.skn-srz1:not(.ZFR) .photo{display:none}
+        #document.skn-srz1.ZFR .prflPic,#document.skn-srz1.ZFR .prflPic > div{width:154px;height:154px}
+        #document.skn-srz1.ZFR .prflPic img{min-width:100%;max-width:100%;min-height:100%;max-height:100%}
+    </style><style type="text/css" id="dynamic" data-time="Thu Apr 08 2021 20:46:27 GMT+0530 (India Standard Time)">
+        #document.skn-srz1,#document.skn-srz1 table{line-height:18px}
+        #document.skn-srz1.pagesize{}
+        #document.skn-srz1.fontface{font-family:Arial}
+        #document.skn-srz1.fontsize{font-size:14px}
+        #document.skn-srz1 .section{padding-top:20px}
+        #document.skn-srz1 .firstparagraph{margin-top:0!important}
+        #document.skn-srz1 .paragraph{margin-top:10px}
+        #document.skn-srz1 .singlecolumn,#document.skn-srz1 .maincolumn{word-wrap:break-word}
+        #document.skn-srz1 .right-box .singlecolumn,#document.skn-srz1 .right-box .maincolumn{margin-left:0px}
+        #document.skn-srz1 table.skills td{padding-top:5px}
+        #document.skn-srz1 .jobtitle,#document.skn-srz1 .degree,#document.skn-srz1 .programline{font-size:20px}
+        #document.skn-srz1 .name{font-size:28px;line-height:34px}
+        #document.skn-srz1 .heading{line-height:22px}
+        #document.skn-srz1 .sectiontitle{font-size:16px}
+        #document.skn-srz1 .resumeTitle{font-size:14px;padding-top:5px}
+
+        /*Left Box*/
+        #document.skn-srz1 .left-box{background:#FFFFFF;width:404px; border: 2px solid #5E9BA2;}
+        #document.skn-srz1 .left-box .section{padding-top:20px}
+        #document.skn-srz1 .left-box .heading{line-height:22px}
+        #document.skn-srz1 .left-box .heading:before{}
+        #document.skn-srz1 .left-box .outer-square:before{background:#5E9BA2;content:'';position:absolute;height:7px;width:100%;filter:brightness(.8)}
+
+
+        /*Right Box*/
+        #document.skn-srz1 .right-box .paragraph .singlecolumn{margin-left:91px}
+        #document.skn-srz1 .right-box .paddedline.date-content{left:-91px}
+        #document.skn-srz1 .right-box .sectiontitle{}
+        #document.skn-srz1 .right-box .inner-square{background:#39c3b1}
+
+        /* Issues fix for builder page */
+        #document.skn-srz1 .right-box .sortable-item{padding-top:20px}
+        #document.skn-srz1 .left-box > .sortable-item.active > .wrapper .heading:before{background:none}
+        #document.skn-srz1 .left-box .sortable-item.active .outer-square:before{background:#d6d6d6}
+        #document.skn-srz1 .left-box .sortable-item.active .inner-square{background:#39c3b1}
+
+        /* Issues fix for builder page: Phase 2 */
+        #document.skn-srz1._single-parent-drag > .wrapper-bg + div{position:relative;z-index:8}
+        #document.skn-srz1._single-parent-drag .outer-square:before{background:#d6d6d6;content:'';position:absolute;height:7px;width:100%;filter:brightness(0.8)}
+        #document.skn-srz1._single-parent-drag .inner-square{background:#39c3b1}
+        #document.skn-srz1._single-parent-drag .wrapper-bg + div .paragraph{margin-top:0}
+        #document.skn-srz1 .outer-square,#document.skn-srz1 .inner-square{height:7px;position:relative}
+        #document.skn-srz1 .parent-drag.active .wrapper,#document.skn-srz1 .sortable-item .sectiontitle{position:relative}
+
+        /* support for IE Browser */
+        @media screen and (min-width:0\0) {
+        #document.skn-srz1 .left-box{box-sizing:content-box}
+        #document.skn-srz1 .parentContainer{display:flex}
+        #document.skn-srz1 .right-box{width:calc(100% - 154px)}
+        #document.skn-srz1 .left-box,#document.skn-srz1 .right-box{background:none;display:inline;position:relative}
+        #document.skn-srz1 .left-box:before{content:'';background:#39c3b1;position:absolute;left:0;top:0;height:100%;width:100%;opacity:.9}
+        }
+    </style></div><div id="document" class="document fontsize fontface vmargins hmargins pagesize skn-srz1 SRZ1  ZTY"><div id="CONTAINER_PARENT_0" class="parentContainer"><div id="CONTAINER_0" class="left-box">  <div class="centerblock">  <img class="circular-image" src="images/profile.jpg"> </div> <div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-NAME"><div id="SECTION_NAMEf19cef06-dd00-4ff4-b90c-7b842bd208ba" class="section notdraggable SECTION_NAME firstsection    " data-section-cd="NAME" style="color:#504E50;"><div class=" doc-item"><div class=""><div class=""><div id="PARAGRAPH_NAME_1fca7c33-916f-4795-90bc-2a452dcd150e" class="paragraph PARAGRAPH_NAME firstparagraph  "><div>
+                        <div class="name word-break" style="text-align: center; margin-top: 60px">
+                            <span class="field" id="FIELD_FNAM">PROFILE</span>
+                            <span class="field word-break" id="FIELD_LNAM"></span>
+                        </div>
+                        <div class="resumeTitle" id="FIELD_DCTL">Final Year Computer Science With Artificial Intelligence Student At King's College London</div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-CNTC"><div id="SECTION_CNTC8dc243c5-f572-45df-a728-3bc3c6a5e603" class="section SECTION_CNTC notdraggable     " data-section-cd="CNTC"><div class=" doc-item" style="background-color: #5E9BA2;"><div class="heading"><div class="sectiontitle" id="SECTIONNAME_CNTC" style="text-align: center;">Contact<span class="rename-section text-rename"> Rename</span></div></div><div class=""><div class=""><div id="PARAGRAPH_CNTC_f423d51c-a107-4b5b-ac3d-1331eb861d3c" class="paragraph PARAGRAPH_CNTC firstparagraph  "><div class="clearfix doc-item">
+                        <div class="address">
+                            <div class="singlecolumn">
+                                <div dependency="STRT|CITY|STAT|ZIPC">
+                                    <div class="txtBold"><span class="xslt_static_change">Address </span></div>
+                                    <div class="field" id="FIELD_STRT"></div>
+                                    <span class="field" id="FIELD_CITY">London | Dubai | India (English, Hindi, Tamil, Sanskrit)</span><span dependency="CITY+STAT|ZIPC">,</span>
+                                    <span class="field" id="FIELD_STAT">PY</span><span dependency="STAT+ZIPC">, </span>
+                                    <span class="field" id="FIELD_ZIPC">605007</span>
+                                </div>
+                                
+                                
+                                
+                                <div class="txtBold mt5" dependency="EMAI"><span class="xslt_static_change">E-mail </span></div>
+                                <div dependency="EMAI" class="word-break">
+                                    <span class="field" id="FIELD_EMAI">priya.pillaipakkam_madapusi@kcl.ac.uk</span>
+                                </div>
+                                <div dependency="SOCL">
+                                    
+                                <div id="CATEGORY_SOCIAL_SOCL" class="mt5">
+                                        <div id="DOCDATAINFO_SOCL" class="txtBold">LinkedIn</div>
+                                        <div id="FIELD_SOCL">https://www.linkedin.com/in/priya-p-m-295351171/</div>
+                                    </div><div id="CATEGORY_SOCIAL_SOCL" class="mt5">
+                                        <div id="DOCDATAINFO_SOCL" class="txtBold">WWW</div>
+                                        <div id="FIELD_SOCL">https://github.com/k1895306</div>
+                                    </div></div>
+                            </div>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-HILT"><div id="SECTION_HILT7a8f9bcb-1554-4372-bd3b-d13013f9cfb7" class="section SECTION_HILT     " data-section-cd="HILT" style="color: #504C56"><div class=" doc-item"><div class="heading"><div class="sectiontitle" id="SECTIONNAME_HILT" style="text-align: center; background-color: #EAD453; color: #FFF;">Skills<span class="rename-section text-rename"> Rename</span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_HILT_0b16d55f-9af1-420a-8a26-fd178e081a07" class="paragraph PARAGRAPH_HILT firstparagraph  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><ul> <p> Entrepreneurial Growth Mindset </p> </ul></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_dafe9d3c-3e55-4b06-8bfb-b4d351319645" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Full Stack Developer </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_760e32c7-f2c3-42dc-9a60-d4e1d22f37c0" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Classical Musician, Veena performer </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_0102a7a4-6b1a-426b-bfec-bc103e4bb8fc" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Angular, python framework </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_7351f7f6-2530-4de1-a527-74033e1e3a8b" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Database - MySQL, SQLite, Postgresql </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_de5c6b9c-ca75-4e5e-aa76-90b6f2a775d3" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Software Development </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_7b9b17cb-b334-49a2-a6bc-40c8f2974958" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> NodeJS, JavaScript, Typescript, Scala </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_992d79ae-b650-4194-b427-5d39b6f94c34" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> C++, PHP, HTML, CSS </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_0516f03f-a08d-489f-86e0-ee6dc6a82c82" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Bharatnatyam Dancer  </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_6878b788-afa4-4cd4-ab76-ab0df2630d85" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Graphic Designer, Web Developer </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_e046b76d-81bb-42af-9f8a-c2fa681f2f10" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Leadership, Team player </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_41f88f8e-c012-4d76-8f4a-84f7e931dff7" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Java, Javafx </p></span>
+                            
+                            <span class="paddedline txtRight" id="FIELD_RATT"></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_29be1c7c-70c5-4e05-ab34-0c288d6ebaf1" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Ethical Hacking with tools+ checking vulnerabilities </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 40%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Average</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_743f2ff3-5eec-4ec1-8af6-a8b5feab3ee9" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Microsoft Office </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_bc983de5-28e8-4319-bcd1-40a5f828f080" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Problem Solving Skills </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div>
+<div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_d3512860-a9bd-48c4-b9a7-792e08ef9fc3" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Data Structure and algorithms </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_8c4e4679-db50-442b-9cb9-794d4df431e9" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Foundations of Computing </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_cc412692-1fea-4b11-bbac-ff68eb6e5d59" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Object Oriented Programming </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_c3e0f77f-e2a5-40b6-a018-7c24c6e043f7" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Teaching </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_e00a61b6-9de9-4de1-b10d-f580ddb1fe8b" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Business and Technical analyst </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_a0d6a2b6-c8eb-4721-9784-1ef7121246ec" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Real-time Business Consultant </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_a8fa355e-f184-49fc-a62a-f31728df6941" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Analytical Skills </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_ef51acfd-9902-48f8-8dee-b9a8eec689d1" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Communication skills </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 80%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Very Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_77781828-ddf0-420b-a784-501b89eb4ed0" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> Advisor </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 60%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Good</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_HILT_321f65dc-32b5-4031-ad2b-e19465f3cea1" class="paragraph PARAGRAPH_HILT  "><div class="clearfix doc-item">
+                        <div class="singlecolumn maincolumn">
+                            <span class="paddedline" id="FIELD_SKC1"><p> King's Entrepreneur Award  </p></span>
+                            <div class="outer-square" dependency="RATV">
+                                <div class="inner-square" id="FIELD_RATV" type="width" style="width: 100%;"></div>
+                            </div>
+                            <span class="paddedline txtRight" id="FIELD_RATT">Excellent</span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div></div><div id="CONTAINER_1" class="right-box"><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-SUMM"><div class="document-tool sec-tool" id="editIcons" style="right: -2px;"></div> <span class="field" id="name" style="font-weight:bold; font-size:50px; text-align:center;padding-left:370px;color:#504C56;">PRIYA P M</span><div id="SECTION_SUMM19fd3cb0-38a4-4e48-82f6-915e03290bd5" class="section summary notdraggable SECTION_SUMM     " data-section-cd="SUMM"><div class=" doc-item"><div class=""><div class=""><div id="PARAGRAPH_SUMM_86d23f67-fe8b-4503-8380-6b3bd55e47fd" class="paragraph PARAGRAPH_SUMM firstparagraph  "><div class="clearfix doc-item">
+                        <div class="field singlecolumn" id="FIELD_FRFM" style="padding-top:20px;"><p> A Passionate and solution-oriented computer science with AI enthusiast always looking forward to new learning opportunities. I always aim at acquiring different life experiences and learning diverse skillsets, which contributed largely to my creative personality and out of the box thinking. </p></div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-EXPR"><div id="SECTION_EXPR936169b6-23d6-406f-8a89-9b1bcea075d3" class="section experience SECTION_EXPR   multi-para  " data-section-cd="EXPR"><div class=" doc-item"><div class="heading"><div class="sectiontitle" id="SECTIONNAME_EXPR" style="color: #514B54;">WORK HISTORY<span class="rename-section text-rename"> Rename</span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_EXPR_f8359114-69e7-4e0a-8c22-b19aa97b54ea" class="paragraph datespara PARAGRAPH_EXPR firstparagraph  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #EAD453; padding: 4px 20px 4px 20px;color: #FFFFFF;">Elected Women's Officer</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">KCLSU</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><p> KCL Student Election elect 2020-21. Exhibited strong personality skills, and won the election with over 300 votes. Under my leadership, we have increased women representation over 60% and have built a very strong community to promote women empowerment. </p></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_c74b3d49-7571-488f-bca4-01ac4dfc957d" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #5E9BA2; padding: 4px 20px 4px 20px;color: #FFFFFF;">President</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">King's Connect</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><p> President of one of the biggest societies on campus, an initiative to connect students pursuing non-technology courses with computer/ engineering students to find potential business partners and help them understand the entrepreneurial ecosystem. From my leadership(20-21), we increased our sales by 300% and was awarded the platinum award by KCLSU. </p></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_9389a558-56aa-4fc0-b4ac-5d972f608fe4" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #D68B7D; padding: 4px 20px 4px 20px;color: #FFFFFF;">Undergraduate</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">KCL</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><ul>   <li> Was selected to be a part of the Discover Bloomberg Summit at the Bloomberg European headquarters. </li>  <li> Was selected to be a part of Hack Cambridge 101 (2020) and had the opportunity to work on a project with PhD Students at the University of Cambridge. </li>  <li> Was selected to be a part of Women@Amazon at the Amazon European headquarters. </li>  <li> Selected out of 800 applicants, to be the Student Ambassador for KCL. </li>  <li> Only chosen technical representative for King's at the UNSW,Australia for TWLP. </li>  <li> Student Advisor at NACUE's Student Enterprise Advisory Board (SEAB). </li>  <li> Trained (student minds) mental health student representative for King's to support the wellbeing of students. </li> </ul></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_ce14e4c8-149c-45b4-a9b7-b60a23f0f9d0" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #EAD453; padding: 4px 20px 4px 20px;color: #FFFFFF;">Tutor, Instructor, Advisor</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">Code First Girls,  InvestIn Education, </span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><ul>   <li> Code First: Girls Instructor presenting a 8-week front-end development coding course to over 20-25 masters students. </li>  <li> University Advisor for InvestIn Education for Young Computer Scientist Programme. My role was to assist students along with Samsung AI developers for creating a voice app for AI assistant Bixby. </li>  <li> A-Levels and GCSE Tutor(18-19), have tutored more than 25 students and guided them for over a year. </li>  <li> Brand Ambassador Of Campus Media for King's College London </li>  <li> Creative Content Writer of an online magazine (her campus). </li>  <li> Student Union Election(19-20) elect as one of the activity committee members for handling funding and finance of more than 300 societies. </li>  <li> Part of the prestigious KCL Student Union Award Panel 2020 </li> </ul></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_c364d955-6db1-418a-a5a3-6d48cc2316b1" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #5E9BA2; padding: 4px 20px 4px 20px;color: #FFFFFF;">Real Time Business Analyst/ Consultant</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">King's Insight Program</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><p>One of the five students selected to be in the King's Entrepreneur Institute Insight program, where as a team, we worked with start-up company, where we performed deep research on the company and industry and guided them as consultants.</p></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_4ea3ce36-b57c-49d3-ab6b-5744628504e0" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #D68B7D; padding: 4px 20px 4px 20px;color: #FFFFFF;">Sales, Business and Technical Analyst </span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">Sunsmart Global/ Herbie AI</span><span dependency="COMP+JCIT|JSTA">,</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA">Dubai, UAE</span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><ul>   <li> Responsible for sales meetings, presentation, meeting clients and looking after the architecture, design for a software product enterprise company and Artificial Intelligence product company. </li>  <li> Partly contributed with coding various Management systems full stack in C#, Angular, MySQL database, NodeJS, Python and Java. </li> </ul></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EXPR_2bc14646-0495-4084-960f-af631106a583" class="paragraph datespara PARAGRAPH_EXPR  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            
+                            <span class="paddedline" dependency="JTIT">
+                                <span class="jobtitle txtBold" id="FIELD_JTIT" style="background: #EAD453; padding: 4px 20px 4px 20px;color: #FFFFFF;">KCLSU</span>
+                            </span>
+                            <span class="paddedline locationGap txtItl" dependency="COMP|JSTA|JCIT">
+                                <span class="companyname" id="FIELD_COMP">King's Student Union</span>
+                                <span class="jobcity" id="FIELD_JCIT"></span>
+                                <span class="jobstate" id="FIELD_JSTA"></span>
+                            </span>
+
+                            <span class="jobline" id="FIELD_JDES"><ul>   <li> Worked as Web Developer for a platform Energe, embedded in the university community(Imperial College London) </li>  <li> Director of Information Technology for KCL AI society. </li>  <li> Selected committee member of competitive Hindu Society </li>  <li> Branding And Marketing Officer for KCL Women in STEM </li>  <li> Creative Head and Events Manager for South Asian Society </li>  <li> Head of Technology(19-20) for King's Connect </li>  <li> Vice President for KCL Graphic Design society </li>  <li> Student Lead for KCL Informatics, Department of Natural and Mathematical Sciences. </li> </ul></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-EDUC"><div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><a href="javascript:;" class="btn-icon-tertiary btn-icon-move" style="right: -475.556px;"><i class="fas fa-arrows-alt" tabindex="0" data-react-beautiful-dnd-drag-handle="0" aria-roledescription="Draggable item. Press space bar to lift" draggable="false"></i><span class="tooltip">Move</span></a></div><div id="SECTION_EDUC75df8694-2b46-4200-9faa-fa1e0d343126" class="section education SECTION_EDUC   multi-para  " data-section-cd="EDUC"><div class=" doc-item"><div class="heading"><div class="sectiontitle" id="SECTIONNAME_EDUC">EDUCATION<span class="rename-section text-rename"> Rename</span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_EDUC_417b8c97-2ede-4b67-83f0-e34421263c19" class="paragraph datespara PARAGRAPH_EDUC firstparagraph  "><div class="clearfix doc-item">
+                        <div class="paddedline date-content hidedates" dependency="GRST|GRED">
+                            <span class="jobdates" dependency="GRST">2007-03</span><span dependency="GRST+GRED"> - </span>
+                            <span class="jobdates" dependency="GRED">2007-03</span>
+                        </div>
+                        <div class="singlecolumn">
+                            <div class="paddedline date-content">
+                                <span class="jobdates" id="FIELD_GRST" format="%Y-%m">2018-09</span><span dependency="GRST+GRED"> - </span>
+                                <span class="jobdates" id="FIELD_GRED" format="%Y-%m">Current</span>
+                            </div>
+                            <span class="paddedline degreeGap txtBold" dependency="DGRE|STUY" style="background: #5E9BA2; padding: 4px 1px 4px 20px;color: #FFFFFF;">
+                                <span class="degree" id="FIELD_DGRE">Bachelor of Science</span><span dependency="DGRE+STUY">: </span>
+                                <span class="programline" id="FIELD_STUY">Computer Science With AI Specialization</span>
+                            </span>
+                            <div class="paddedline txtItl" dependency="SCIT|SSTA|SCHO">
+                                <span class="companyname" id="FIELD_SCHO">King's College London</span><span dependency="SCHO+SSTA|SCIT"> - </span>
+                                <span class="joblocation jobcity" id="FIELD_SCIT">London</span>
+                                <span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                            </div>
+
+                            <span class="field" id="FIELD_FRFM"><ul>   <li> Majored in Artificial Intelligence, and graduating with the second/first upper class. </li>  <li> <strong> Ticketing System for King's Pediatric Liver Service -  </strong>Developed a web-application with bespoke database for one of the three referrals services in the UK for children with liver disease (King's College Hospital) to help medical professionals streamline their referral process. The system supports different user roles within the client organization. </li>  <li> Working on an individual research project including features such as face recognition, live location tracker and biometric recognition. </li> </ul></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_EDUC_de9057c7-e7be-4046-99e9-5b483611264d" class="paragraph datespara PARAGRAPH_EDUC  "><div class="clearfix doc-item">
+                        
+                        <div class="singlecolumn">
+                            <div class="paddedline date-content">
+                                <span class="jobdates" id="FIELD_GRST" format="%Y-%m"></span>
+                                <span class="jobdates" id="FIELD_GRED" format="%Y-%m"></span>
+                            </div>
+                            <span class="paddedline degreeGap txtBold" dependency="DGRE|STUY" style="background: #D68B7D; padding: 4px 1px 4px 20px;color: #FFFFFF;">
+                                <span class="degree" id="FIELD_DGRE">High School Diploma</span>
+                                <span class="programline" id="FIELD_STUY"></span>
+                            </span>
+                            <div class="paddedline txtItl" dependency="SCIT|SSTA|SCHO">
+                                <span class="companyname" id="FIELD_SCHO">P S Senior Secondary School</span><span dependency="SCHO+SSTA|SCIT"> - </span>
+                                <span class="joblocation jobcity" id="FIELD_SCIT">India</span>
+                                <span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                            </div>
+
+                            <span class="field" id="FIELD_FRFM"><p> One of the most prestigious schools in India, scored 95% in CBSE Board Examinations(A-Levels) </p><p> Scored a full 10/10 CGPA (GCSE) </p></span>
+                        </div>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div><div data-react-beautiful-dnd-draggable="0" class="sortable-item section-container SortableItem-sibling data-INTR"><div class="document-tool sec-tool" id="editIcons" style="right: -2px;"><a href="javascript:;" class="btn-icon-tertiary btn-icon-move" style="right: -476px;"><i class="fas fa-arrows-alt" tabindex="0" data-react-beautiful-dnd-drag-handle="0" aria-roledescription="Draggable item. Press space bar to lift" draggable="false"></i><span class="tooltip">Move</span></a></div><div id="SECTION_INTRae007d41-bc33-48d2-987f-8544f69707ec" class="section SECTION_INTR     " data-section-cd="INTR"><div class=" doc-item"><div class="heading"><div class="sectiontitle" id="SECTIONNAME_INTR">INTERESTS<span class="rename-section text-rename"> Rename</span></div></div><div class=""><div class="sortableInner"><div id="PARAGRAPH_INTR_29800833-1f06-4da1-9b13-2b6868adbb24" class="paragraph PARAGRAPH_INTR firstparagraph  "><div class="clearfix doc-item">
+                        <span class="field singlecolumn" id="FIELD_FRFM" style="background: #EAD453; padding: 4px 20px 4px 20px;color: #FFFFFF;"> Travelling </span>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_INTR_fce52249-07e4-4784-9c7e-171ee2902e59" class="paragraph PARAGRAPH_INTR  "><div class="clearfix doc-item">
+                        <span class="field singlecolumn" id="FIELD_FRFM" style="background: #5E9BA2; padding: 4px 20px 4px 20px;color: #FFFFFF;"> Entrepreneurship and start-ups </span>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_INTR_6cb6e7f9-15e0-47c0-8381-13d477a5975f" class="paragraph PARAGRAPH_INTR  "><div class="clearfix doc-item">
+                        <span class="field singlecolumn" id="FIELD_FRFM" style="background: #D68B7D; padding: 4px 20px 4px 20px;color: #FFFFFF;"> Stock Investments </span>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_INTR_e0415ae6-59cc-47f3-9883-2b911a4bfc9d" class="paragraph PARAGRAPH_INTR  "><div class="clearfix doc-item">
+                        <span class="field singlecolumn" id="FIELD_FRFM" style="background: #EAD453; padding: 4px 20px 4px 20px;color: #FFFFFF;"> Poetry </span>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div><div id="PARAGRAPH_INTR_1868eb68-22ef-4d25-b7ac-229ac7c64e34" class="paragraph PARAGRAPH_INTR  "><div class="clearfix doc-item">
+                        <span class="field singlecolumn" id="FIELD_FRFM" style="background: #5E9BA2; padding: 4px 20px 4px 20px;color: #FFFFFF;"> Spirituality </span>
+                    </div><div class="doc-overlay para-overlay" style="left:-2px; right: -2px;"><span class="badge badge-primary badge-edit"></span><span>&nbsp;</span></div></div></div></div></div><div class="doc-overlay section-overlay" style="left:-2px; right: -2px;"><span>&nbsp;</span></div></div></div></div></div></div></div></body></html>
